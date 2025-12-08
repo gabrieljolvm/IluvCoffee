@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import { Coffee } from 'src/coffees/entities/coffee.entity';
-import { Flavor } from 'src/coffees/entities/flavor.entity/flavor.entity';
+import { Flavor } from 'src/coffees/entities/flavor.entity';
 import { CoffeeRefactor1765077116586 } from 'src/migrations/1765077116586-CoffeeRefactor';
 import { SchemaSync1765077770335 } from 'src/migrations/1765077770335-SchemaSync';
 import { DataSource } from 'typeorm';
